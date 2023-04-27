@@ -2,6 +2,11 @@ p {
 	color: navy;
 }
 
+title {
+	color:white;
+	text-shadow: navy;
+}
+
 p.info {
 	font-size: small;
 	background-color: #dfdfdf;
@@ -14,6 +19,9 @@ h1 {
 h2 {
 	border: solid 1px black;
 	margin: 5px;
+	font-family: cursive;
+	color:#3f3faf;
+	background: linear-gradient(to right,white,#ffefaf);
 }
 
 div#zentai {
@@ -26,4 +34,8 @@ div#zentai {
 div#zentai > div {
 	padding: 5px;
 	background-color: #ffefaf;
+}
+
+img {
+	float: right;
 }
