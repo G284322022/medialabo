@@ -1,0 +1,12 @@
+body {
+    background-color:rgb(185, 216, 229);
+}
+
+ul {
+    background-color: rgb(226, 224, 255);
+    padding: 10px
+}
+
+li {
+    list-style-type: none;
+}
