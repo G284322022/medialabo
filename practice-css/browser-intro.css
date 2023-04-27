@@ -19,7 +19,8 @@ h2 {
 }
 
 div#zentai {
-	display: flex;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 	flex-direction: row;
 	width: 1024px;
 }
