@@ -1,7 +1,7 @@
 p {
 	color: navy;
 }
-p first-child {
+p.intro {
 	font-size: small;
 	background-color: #dfdfdf;
 }
