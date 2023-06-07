@@ -7,7 +7,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
         <script src="weather.js" defer></script>
     </head>
+    <h1>天気を検索するだけのページ</h1>
     <body>
+        <div id="label">
         <label for="kensaku">天気の検索メニュー</label>
         <select name="kensaku" id="kensaku">
             <option value="">検索する都市を選んでください</option>
@@ -25,12 +27,9 @@
             <option value="5368361">Los Angeles ロサンゼルス （アメリカ合衆国）</option>
         </select>
         <button id="botan">検索</button>
+        </div>
+        <h2>検索する都市:<span id='name'></span></h2>
       <table>
-        <thead>
-            <tr>
-                <th colspan="2"><span id='name'></span></th>
-            </tr>
-        </thead>
         <tbody>
             <tr>
                 <td>緯度:</td>
